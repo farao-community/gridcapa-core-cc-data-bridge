@@ -18,7 +18,7 @@ public record FileMetadataConfiguration(FileType fileType, String fileRegex, Str
         this.fileType = fileType;
         this.fileRegex = fileRegex;
         this.remoteFileRegex = remoteFileRegex;
-        this.doUnzip = doUnzip != null ? doUnzip : true;
+        this.doUnzip = doUnzip != null ? doUnzip : true; // NOSONAR for readability reason
         this.sourceDirectory = sourceDirectory;
         this.sinkDirectory = sinkDirectory;
         this.fileListPersistenceFile = fileListPersistenceFile;
