@@ -83,7 +83,7 @@ $ git merge upstream/master
 
 Then push your local branch to `origin` and open a Pull Request from this branch to `master`.
 ```bash
-$ git push origin master
+$ git push origin sync-with-upstream
 ```
 
 For detail, see [this link](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork#syncing-a-fork-branch-from-the-command-line)
