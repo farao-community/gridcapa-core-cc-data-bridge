@@ -7,7 +7,7 @@
     <parent>
         <groupId>com.farao-community.farao</groupId>
         <artifactId>farao-parent-ws</artifactId>
-        <version>1.13.0</version>
+        <version>1.14.0</version>
     </parent>
 
     <artifactId>gridcapa-core-cc-data-bridge</artifactId>
@@ -28,7 +28,7 @@
         <!-- Dependency versions -->
         <spring.integration.aws.version>2.4.0</spring.integration.aws.version>
         <spring.integration.zip.version>6.5.0</spring.integration.zip.version>
-        <gridcapa.starter.minio.adapter.version>1.6.0</gridcapa.starter.minio.adapter.version>
+        <gridcapa.starter.minio.adapter.version>1.8.0</gridcapa.starter.minio.adapter.version>
         <jaxb-api.version>2.4.0-b180830.0359</jaxb-api.version>
         <apache-sshd.version>2.14.0</apache-sshd.version>
         <eddsa.version>0.3.0</eddsa.version>
